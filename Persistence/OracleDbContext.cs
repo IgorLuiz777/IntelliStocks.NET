@@ -9,11 +9,7 @@ namespace IntelliStocks.Persistence
 
         public DbSet<Categoria> Categoria { get; set; }
 
-        public DbSet<Fornecedor> Fornecedor { get; set; }
-
         public DbSet<Usuario> Usuario { get; set; }
-
-        public DbSet<Endereco> Endereco { get; set; }
 
         public OracleDbContext(DbContextOptions<OracleDbContext> options) : base(options) { }
 

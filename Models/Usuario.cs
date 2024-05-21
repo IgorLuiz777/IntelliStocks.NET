@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace IntelliStocks.Models
 {
-    [Table("IntelliStocks_Usuario")]
+    [Table("IntelliStocks02_Usuario")]
     public class Usuario
     {
         [Key]
@@ -13,9 +13,6 @@ namespace IntelliStocks.Models
         [Required(ErrorMessage = "O nome é obrigatório.")]
         public string Nome { get; set; }
 
-        [ForeignKey("EnderecoId")]
-        public int EnderecoID { get; set; }
-
         [Column("Email", TypeName = "varchar(255)")]
         [EmailAddress]
         public string Email {  get; set; }
@@ -23,7 +20,7 @@ namespace IntelliStocks.Models
         [MaxLength(11, ErrorMessage = "O telefone deve conter no máximo 11 caracteres.")]
         public string Telefone { get; set; }
 
-        [MaxLength(11, ErrorMessage = "O CPF deve conter no máximo 11caracteres.")]
+        [MaxLength(11, ErrorMessage = "O CNPJ deve conter no máximo 11 caracteres.")]
         public string CPF { get; set; }
 
         [MinLength(8, ErrorMessage = "A quantidade de caracteres minina é 8")]

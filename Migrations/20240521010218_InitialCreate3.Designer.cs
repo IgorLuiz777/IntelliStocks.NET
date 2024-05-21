@@ -11,8 +11,8 @@ using Oracle.EntityFrameworkCore.Metadata;
 namespace IntelliStocks.Migrations
 {
     [DbContext(typeof(OracleDbContext))]
-    [Migration("20240428234803_Iniital_Migration")]
-    partial class Iniital_Migration
+    [Migration("20240521010218_InitialCreate3")]
+    partial class InitialCreate3
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,80 +32,24 @@ namespace IntelliStocks.Migrations
 
                     OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoriaId"));
 
-                    b.Property<string>("Descricao")
-                        .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
-
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("NVARCHAR2(2000)");
 
                     b.HasKey("CategoriaId");
 
-                    b.ToTable("Categoria");
-                });
-
-            modelBuilder.Entity("IntelliStocks.Models.Endereco", b =>
-                {
-                    b.Property<int>("EnderecoId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)");
-
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EnderecoId"));
-
-                    b.Property<string>("Cidade")
-                        .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
-
-                    b.Property<int>("Numero")
-                        .HasColumnType("NUMBER(10)");
-
-                    b.Property<string>("Rua")
-                        .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
-
-                    b.HasKey("EnderecoId");
-
-                    b.ToTable("Endereco");
-                });
-
-            modelBuilder.Entity("IntelliStocks.Models.Fornecedor", b =>
-                {
-                    b.Property<int>("FornecedorId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)");
-
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FornecedorId"));
-
-                    b.Property<int>("EnderecoId")
-                        .HasColumnType("NUMBER(10)");
-
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
-
-                    b.Property<string>("Telefone")
-                        .IsRequired()
-                        .HasMaxLength(11)
-                        .HasColumnType("NVARCHAR2(11)");
-
-                    b.HasKey("FornecedorId");
-
-                    b.ToTable("Fornecedor");
+                    b.ToTable("IntelliStocks02_Categorias");
                 });
 
             modelBuilder.Entity("IntelliStocks.Models.Produto", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("ProdutoId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("NUMBER(10)");
 
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProdutoId"));
 
-                    b.Property<int>("Categoria")
-                        .HasColumnType("NUMBER(10)");
-
-                    b.Property<int>("Fornecedor")
+                    b.Property<int>("CategoriaId")
                         .HasColumnType("NUMBER(10)");
 
                     b.Property<string>("Marca")
@@ -120,12 +64,17 @@ namespace IntelliStocks.Migrations
                         .IsRequired()
                         .HasColumnType("NVARCHAR2(2000)");
 
-                    b.Property<decimal>("Preco")
-                        .HasColumnType("DECIMAL(18, 2)");
+                    b.Property<double>("Preco")
+                        .HasColumnType("BINARY_DOUBLE");
 
-                    b.HasKey("Id");
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("NUMBER(10)");
 
-                    b.ToTable("Produto");
+                    b.HasKey("ProdutoId");
+
+                    b.HasIndex("CategoriaId");
+
+                    b.ToTable("IntelliStocks02_Produtos");
                 });
 
             modelBuilder.Entity("IntelliStocks.Models.Usuario", b =>
@@ -146,9 +95,6 @@ namespace IntelliStocks.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("Email");
 
-                    b.Property<int>("EnderecoId")
-                        .HasColumnType("NUMBER(10)");
-
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("NVARCHAR2(2000)");
@@ -164,20 +110,18 @@ namespace IntelliStocks.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EnderecoId");
-
-                    b.ToTable("Usuario");
+                    b.ToTable("IntelliStocks02_Usuario");
                 });
 
-            modelBuilder.Entity("IntelliStocks.Models.Usuario", b =>
+            modelBuilder.Entity("IntelliStocks.Models.Produto", b =>
                 {
-                    b.HasOne("IntelliStocks.Models.Endereco", "Endereco")
+                    b.HasOne("IntelliStocks.Models.Categoria", "Categoria")
                         .WithMany()
-                        .HasForeignKey("EnderecoId")
+                        .HasForeignKey("CategoriaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Endereco");
+                    b.Navigation("Categoria");
                 });
 #pragma warning restore 612, 618
         }

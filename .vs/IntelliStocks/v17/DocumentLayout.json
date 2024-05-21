@@ -1,141 +1,141 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\",
+  "WorkspaceRootPath": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\enderecos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\enderecos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\fornecedor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\fornecedor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\produtos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\produtos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\produtos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\produtos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\categorias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\categorias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\fornecedor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\fornecedor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\enderecos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\enderecos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\migrations\\20240429003408_migration_03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:migrations\\20240429003408_migration_03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\controllers\\enderecoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:controllers\\enderecoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\migrations\\20240429001841_migration_02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:migrations\\20240429001841_migration_02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\migrations\\20240428234803_iniital_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:migrations\\20240428234803_iniital_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\migrations\\oracledbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:migrations\\oracledbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\persistence\\oracledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\views\\categorias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\categorias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521010901_InitialCreate4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240521010901_InitialCreate4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521003015_InitialCreate01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240521003015_InitialCreate01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521010218_InitialCreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240521010218_InitialCreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521010023_InitialCreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240521010023_InitialCreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521005841_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240521005841_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521005319_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240521005319_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521005144_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240521005144_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521003153_InitialCreate03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240521003153_InitialCreate03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521002608_Migration01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240521002608_Migration01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\persistence\\oracledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:persistence\\oracledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\intellistocks\\intellistocks.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|c:\\users\\igorl\\onedrive\\imagens\\documentos\\projects\\cp02.net\\intellistocks\\intellistocks.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5ED2C469-E87F-40E6-9196-2D4438901208}|IntelliStocks.csproj|solutionrelative:intellistocks.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -146,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -154,445 +154,440 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Usuarios\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuarios\\Create.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Usuarios\\Create.cshtml",
-              "RelativeToolTip": "Views\\Usuarios\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T00:49:13.254Z",
+              "WhenOpened": "2024-05-21T01:16:41.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Produtos\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Produtos\\Details.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Produtos\\Details.cshtml",
-              "RelativeToolTip": "Views\\Produtos\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T00:46:21.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAuwCoAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T00:46:11.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Produtos\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Produtos\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Produtos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Produtos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Produtos\\Index.cshtml",
               "RelativeToolTip": "Views\\Produtos\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAAA5AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T00:45:54.627Z",
+              "WhenOpened": "2024-05-21T01:16:30.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Categorias\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Categorias\\Details.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Categorias\\Details.cshtml",
-              "RelativeToolTip": "Views\\Categorias\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T00:45:29.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Categorias\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Categorias\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Categorias\\Index.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Categorias\\Index.cshtml",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Categorias\\Index.cshtml",
               "RelativeToolTip": "Views\\Categorias\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABCAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T00:45:09.214Z",
+              "WhenOpened": "2024-05-21T01:16:09.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Fornecedor\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Fornecedor\\Details.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Fornecedor\\Details.cshtml",
-              "RelativeToolTip": "Views\\Fornecedor\\Details.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAeAAAA",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Categorias\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categorias\\Create.cshtml",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Categorias\\Create.cshtml",
+              "RelativeToolTip": "Views\\Categorias\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T00:43:31.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Enderecos\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Enderecos\\Details.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Enderecos\\Details.cshtml",
-              "RelativeToolTip": "Views\\Enderecos\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T00:43:24.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Fornecedor\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Fornecedor\\Index.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Fornecedor\\Index.cshtml",
-              "RelativeToolTip": "Views\\Fornecedor\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T00:42:18.066Z",
+              "WhenOpened": "2024-05-21T01:15:45.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "20240429003408_Migration_03.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Migrations\\20240429003408_Migration_03.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240429003408_Migration_03.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Migrations\\20240429003408_Migration_03.cs",
-              "RelativeToolTip": "Migrations\\20240429003408_Migration_03.cs",
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "Controllers\\ProdutosController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T00:34:10.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "OracleDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Migrations\\OracleDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\OracleDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Migrations\\OracleDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\OracleDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T23:50:27.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Enderecos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Enderecos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Enderecos\\Index.cshtml",
-              "RelativeToolTip": "Views\\Enderecos\\Index.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAewB8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T23:20:03.698Z",
+              "WhenOpened": "2024-05-21T01:12:42.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Models\\Categoria.cs",
-              "RelativeToolTip": "Models\\Categoria.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:33:22.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Produtos\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Produtos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Produtos\\Create.cshtml",
-              "RelativeToolTip": "Views\\Produtos\\Create.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T00:53:26.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Usuarios\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuarios\\Details.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Usuarios\\Details.cshtml",
-              "RelativeToolTip": "Views\\Usuarios\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T00:48:53.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20240428234803_Iniital_Migration.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Migrations\\20240428234803_Iniital_Migration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240428234803_Iniital_Migration.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Migrations\\20240428234803_Iniital_Migration.cs",
-              "RelativeToolTip": "Migrations\\20240428234803_Iniital_Migration.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T23:48:04.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Models\\Produto.cs",
-              "RelativeToolTip": "Models\\Produto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:22:48.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T00:39:28.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABQAAAAAAAAAAAAuwCYAAABeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T23:17:55.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-28T23:17:21.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EnderecosController.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Controllers\\EnderecosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EnderecosController.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Controllers\\EnderecosController.cs",
-              "RelativeToolTip": "Controllers\\EnderecosController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAIwAoAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T23:15:46.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T23:14:38.975Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T23:12:00.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Endereco.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Models\\Endereco.cs",
-              "RelativeDocumentMoniker": "Models\\Endereco.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Models\\Endereco.cs",
-              "RelativeToolTip": "Models\\Endereco.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:34:37.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Fornecedor.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Models\\Fornecedor.cs",
-              "RelativeDocumentMoniker": "Models\\Fornecedor.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Models\\Fornecedor.cs",
-              "RelativeToolTip": "Models\\Fornecedor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:34:21.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:34:29.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "Controllers\\ProdutosController.cs",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T00:00:09.15Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T23:12:01.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20240429001841_Migration_02.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Migrations\\20240429001841_Migration_02.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240429001841_Migration_02.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Migrations\\20240429001841_Migration_02.cs",
-              "RelativeToolTip": "Migrations\\20240429001841_Migration_02.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T00:18:42.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "Controllers\\CategoriasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T00:02:34.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "FornecedorController.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Controllers\\FornecedorController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FornecedorController.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Controllers\\FornecedorController.cs",
-              "RelativeToolTip": "Controllers\\FornecedorController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T00:09:08.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Program.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T23:06:20.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T23:17:55.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T23:12:26.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T23:12:25.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-28T22:59:52.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
+              "DocumentIndex": 16,
+              "Title": "20240521010901_InitialCreate4.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521010901_InitialCreate4.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240521010901_InitialCreate4.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521010901_InitialCreate4.cs",
+              "RelativeToolTip": "Migrations\\20240521010901_InitialCreate4.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-28T22:59:45.044Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T01:09:01.322Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240521003015_InitialCreate01.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521003015_InitialCreate01.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240521003015_InitialCreate01.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521003015_InitialCreate01.cs",
+              "RelativeToolTip": "Migrations\\20240521003015_InitialCreate01.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T00:30:16.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240521010218_InitialCreate3.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521010218_InitialCreate3.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240521010218_InitialCreate3.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521010218_InitialCreate3.cs",
+              "RelativeToolTip": "Migrations\\20240521010218_InitialCreate3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T01:02:18.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240521010023_InitialCreate2.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521010023_InitialCreate2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240521010023_InitialCreate2.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521010023_InitialCreate2.cs",
+              "RelativeToolTip": "Migrations\\20240521010023_InitialCreate2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T01:00:23.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20240521005841_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521005841_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240521005841_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521005841_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20240521005841_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T00:58:41.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:13:38.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Estoque.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Models\\Estoque.cs",
+              "RelativeDocumentMoniker": "Models\\Estoque.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Models\\Estoque.cs",
+              "RelativeToolTip": "Models\\Estoque.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:14:49.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Models\\Produto.cs",
+              "RelativeToolTip": "Models\\Produto.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:22:48.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "Controllers\\CategoriasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T00:53:58.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Models\\Categoria.cs",
+              "RelativeToolTip": "Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:33:22.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240521005319_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521005319_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240521005319_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521005319_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20240521005319_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T00:53:20.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20240521005144_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521005144_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240521005144_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521005144_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20240521005144_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T00:51:44.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:34:29.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20240521003153_InitialCreate03.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521003153_InitialCreate03.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240521003153_InitialCreate03.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521003153_InitialCreate03.cs",
+              "RelativeToolTip": "Migrations\\20240521003153_InitialCreate03.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T00:31:53.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T23:28:24.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20240521002608_Migration01.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521002608_Migration01.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240521002608_Migration01.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Migrations\\20240521002608_Migration01.cs",
+              "RelativeToolTip": "Migrations\\20240521002608_Migration01.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T00:26:08.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:14:38.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T23:07:32.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OracleDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Persistence\\OracleDbContext.cs",
+              "RelativeDocumentMoniker": "Persistence\\OracleDbContext.cs",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\Persistence\\OracleDbContext.cs",
+              "RelativeToolTip": "Persistence\\OracleDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:15:16.757Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "OracleDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Persistence\\OracleDbContext.cs",
-              "RelativeDocumentMoniker": "Persistence\\OracleDbContext.cs",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\Persistence\\OracleDbContext.cs",
-              "RelativeToolTip": "Persistence\\OracleDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAiwBEAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:15:16.757Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-28T22:59:45.044Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "IntelliStocks",
-              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\IntelliStocks.csproj",
+              "Title": "IntelliStocks.csproj",
+              "DocumentMoniker": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\IntelliStocks.csproj",
               "RelativeDocumentMoniker": "IntelliStocks.csproj",
-              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\IntelliStocks.csproj",
+              "ToolTip": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\IntelliStocks.csproj",
               "RelativeToolTip": "IntelliStocks.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-28T22:14:38.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T22:14:38.948Z"
             }
           ]
         }

@@ -1,10 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace IntelliStocks.Models
 {
-
-    [Table("IntelliStocks_Categoria")]
+    [Table("IntelliStocks02_Categorias")]
     public class Categoria
     {
         [Key]
@@ -13,8 +13,5 @@ namespace IntelliStocks.Models
 
         [Required(ErrorMessage = "O nome é obrigatório.")]
         public string Nome { get; set; }
-
-        public string Descricao { get; set; }
     }
 }
-

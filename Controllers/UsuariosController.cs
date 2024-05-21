@@ -54,7 +54,7 @@ namespace IntelliStocks.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,EnderecoID,Email,Telefone,CPF,Senha")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Email,Telefone,CPF,Senha")] Usuario usuario)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace IntelliStocks.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,EnderecoID,Email,Telefone,CPF,Senha")] Usuario usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,Telefone,CPF,Senha")] Usuario usuario)
         {
             if (id != usuario.Id)
             {

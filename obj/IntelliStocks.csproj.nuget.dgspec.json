@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\IntelliStocks.csproj": {}
+    "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\IntelliStocks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\IntelliStocks.csproj": {
+    "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\IntelliStocks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\IntelliStocks.csproj",
+        "projectUniqueName": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\IntelliStocks.csproj",
         "projectName": "IntelliStocks",
-        "projectPath": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\IntelliStocks.csproj",
+        "projectPath": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\IntelliStocks.csproj",
         "packagesPath": "C:\\Users\\igorl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\IntelliStocks\\obj\\",
+        "outputPath": "C:\\Users\\igorl\\OneDrive\\Imagens\\Documentos\\projects\\cp02.NET\\IntelliStocks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\igorl\\AppData\\Roaming\\NuGet\\NuGet.Config",
