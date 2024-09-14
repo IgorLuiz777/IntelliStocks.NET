@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\IntelliStocks.csproj": {}
+    "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {}
   },
   "projects": {
-    "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\IntelliStocks.csproj": {
+    "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\IntelliStocks.csproj",
-        "projectName": "IntelliStocks",
-        "projectPath": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\IntelliStocks.csproj",
+        "projectUniqueName": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
+        "projectName": "INTELLISTOCKS.MODELS",
+        "projectPath": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
         "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\obj\\",
+        "outputPath": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,32 +49,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.4, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Oracle.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.21.140, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -87,9 +61,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

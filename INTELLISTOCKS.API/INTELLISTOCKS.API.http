@@ -1,0 +1,6 @@
+@INTELLISTOCKS.API_HostAddress = http://localhost:5205
+
+GET {{INTELLISTOCKS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
