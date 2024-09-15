@@ -1,13 +1,54 @@
+// Program.cs
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using System.Text.Json.Serialization;
+using INTELLISTOCKS.MODELS.db;
+using INTELLISTOCKS.REPOSITORY.repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Usei para usar o ENUM como string
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    });
+
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(swagger =>
+{
+    swagger.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = builder.Configuration.GetSection("Swagger:Title").Value,
+        Description = builder.Configuration.GetSection("Swagger:Description").Value,
+        Contact = new OpenApiContact
+        {
+            Name = builder.Configuration.GetSection("Swagger:Contact:Name").Value,
+            Email = builder.Configuration.GetSection("Swagger:Contact:Email").Value,
+            Url = new Uri(builder.Configuration.GetSection("Swagger:Contact:Url").Value)
+        },
+        License = new OpenApiLicense
+        {
+            Name = builder.Configuration.GetSection("Swagger:License:Name").Value,
+            Url = new Uri(builder.Configuration.GetSection("Swagger:License:Url").Value)
+        }
+    });
+});
+
+builder.Services.AddDbContext<FIAPDbContext>(options =>
+{
+    options.UseOracle(builder.Configuration.GetConnectionString("FIAPDatabase"));
+});
+
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -15,30 +56,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-    {
-        var forecast = Enumerable.Range(1, 5).Select(index =>
-                new WeatherForecast
-                (
-                    DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                    Random.Shared.Next(-20, 55),
-                    summaries[Random.Shared.Next(summaries.Length)]
-                ))
-            .ToArray();
-        return forecast;
-    })
-    .WithName("GetWeatherForecast")
-    .WithOpenApi();
-
+app.UseAuthorization();
+app.MapControllers();
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

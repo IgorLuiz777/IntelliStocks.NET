@@ -1,0 +1,15 @@
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\bin\Debug\net8.0\INTELLISTOCKS.MODELS.deps.json
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\bin\Debug\net8.0\INTELLISTOCKS.MODELS.dll
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\bin\Debug\net8.0\INTELLISTOCKS.MODELS.pdb
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\obj\Debug\net8.0\INTELLISTOCKS.MODELS.csproj.AssemblyReference.cache
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\obj\Debug\net8.0\INTELLISTOCKS.MODELS.GeneratedMSBuildEditorConfig.editorconfig
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\obj\Debug\net8.0\INTELLISTOCKS.MODELS.AssemblyInfoInputs.cache
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\obj\Debug\net8.0\INTELLISTOCKS.MODELS.AssemblyInfo.cs
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\obj\Debug\net8.0\INTELLISTOCKS.MODELS.csproj.CoreCompileInputs.cache
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\obj\Debug\net8.0\INTELLISTOCKS.MODELS.sourcelink.json
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\obj\Debug\net8.0\INTELLISTOCKS.MODELS.dll
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\obj\Debug\net8.0\refint\INTELLISTOCKS.MODELS.dll
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\obj\Debug\net8.0\INTELLISTOCKS.MODELS.pdb
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\obj\Debug\net8.0\ref\INTELLISTOCKS.MODELS.dll
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\bin\Debug\net8.0\INTELLISTOCKS.MODELS.runtimeconfig.json
+P:\projects\intelliStocks.net\IntelliStocks.NET\INTELLISTOCKS.MODELS\obj\Debug\net8.0\INTELLISTOCKS.MODELS.genruntimeconfig.cache

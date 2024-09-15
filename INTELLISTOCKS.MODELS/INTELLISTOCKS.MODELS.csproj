@@ -12,4 +12,24 @@
       <Folder Include="user\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.8" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+      <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.23.50" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="appsettings.Development.json">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>
