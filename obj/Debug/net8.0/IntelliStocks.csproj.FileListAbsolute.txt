@@ -1,9 +1,0 @@
-P:\projects\intelliStocks.net\IntelliStocks.NET\obj\Debug\net8.0\IntelliStocks.csproj.AssemblyReference.cache
-P:\projects\intelliStocks.net\IntelliStocks.NET\obj\Debug\net8.0\IntelliStocks.GeneratedMSBuildEditorConfig.editorconfig
-P:\projects\intelliStocks.net\IntelliStocks.NET\obj\Debug\net8.0\IntelliStocks.AssemblyInfoInputs.cache
-P:\projects\intelliStocks.net\IntelliStocks.NET\obj\Debug\net8.0\IntelliStocks.AssemblyInfo.cs
-P:\projects\intelliStocks.net\IntelliStocks.NET\obj\Debug\net8.0\IntelliStocks.csproj.CoreCompileInputs.cache
-P:\projects\intelliStocks.net\IntelliStocks.NET\obj\Debug\net8.0\IntelliStocks.MvcApplicationPartsAssemblyInfo.cache
-P:\projects\intelliStocks.net\IntelliStocks.NET\obj\Debug\net8.0\IntelliStocks.RazorAssemblyInfo.cache
-P:\projects\intelliStocks.net\IntelliStocks.NET\obj\Debug\net8.0\IntelliStocks.RazorAssemblyInfo.cs
-P:\projects\intelliStocks.net\IntelliStocks.NET\obj\Debug\net8.0\IntelliStocks.sourcelink.json

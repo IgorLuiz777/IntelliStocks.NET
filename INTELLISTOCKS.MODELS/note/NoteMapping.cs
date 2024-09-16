@@ -9,12 +9,12 @@ public class NoteMapping : IEntityTypeConfiguration<Note>
     {
         builder.ToTable("INTELLISTOCKS_NOTES");
 
-        builder.HasKey(x => x.ID);
+        builder.HasKey(n => n.ID);
         
-        builder.Property(x => x.Title).IsRequired().HasMaxLength(100);
+        builder.Property(n => n.Title).IsRequired().HasMaxLength(100);
         
-        builder.Property(x => x.Content).IsRequired().HasMaxLength(500);
+        builder.Property(n => n.Content).IsRequired().HasMaxLength(500);
         
-        builder.Property(x => x.CreatedDate).IsRequired();
+        builder.Property(n => n.CreatedDate).IsRequired();
     }
 }

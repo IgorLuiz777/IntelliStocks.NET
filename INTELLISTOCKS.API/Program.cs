@@ -9,6 +9,7 @@ using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 using INTELLISTOCKS.MODELS.db;
 using INTELLISTOCKS.REPOSITORY;
+using INTELLISTOCKS.REPOSITORY.events;
 using INTELLISTOCKS.REPOSITORY.repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -48,6 +49,7 @@ builder.Services.AddDbContext<FIAPDbContext>(options =>
 
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<INoteRepository, NoteRepository>();
+builder.Services.AddScoped<IEventRepository, EventsRepository>();
 
 var app = builder.Build();
 

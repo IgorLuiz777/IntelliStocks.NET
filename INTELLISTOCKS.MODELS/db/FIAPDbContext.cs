@@ -1,4 +1,5 @@
-﻿using INTELLISTOCKS.MODELS.note;
+﻿using INTELLISTOCKS.MODELS.events;
+using INTELLISTOCKS.MODELS.note;
 using INTELLISTOCKS.MODELS.task;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,6 +10,8 @@ namespace INTELLISTOCKS.MODELS.db
         public DbSet<Tasks> Tasks { get; set; }
         
         public DbSet<Note> Note { get; set; }
+        
+        public DbSet<Events> Events { get; set; }
 
         public FIAPDbContext(DbContextOptions<FIAPDbContext> options) : base(options)
         {

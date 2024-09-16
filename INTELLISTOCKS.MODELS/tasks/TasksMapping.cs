@@ -9,16 +9,16 @@ public class TasksMapping : IEntityTypeConfiguration<Tasks>
     {
         builder.ToTable("INTELLISTOCKS_TASKS");
 
-        builder.HasKey(x => x.Id);
+        builder.HasKey(t => t.Id);
         
-        builder.Property(x => x.Title).IsRequired().HasMaxLength(100);
+        builder.Property(t => t.Title).IsRequired().HasMaxLength(100);
         
-        builder.Property(x => x.Description).HasMaxLength(255);
+        builder.Property(t => t.Description).HasMaxLength(255);
         
-        builder.Property(x => x.Priority).IsRequired();
+        builder.Property(t => t.Priority).IsRequired();
         
-        builder.Property(x => x.DueTo);
+        builder.Property(t => t.DueTo);
 
-        builder.Property(x => x.Status).IsRequired();
+        builder.Property(t => t.Status).IsRequired();
     }
 }

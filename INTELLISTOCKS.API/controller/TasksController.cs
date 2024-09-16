@@ -7,8 +7,9 @@ using INTELLISTOCKS.REPOSITORY.repository;
 
 namespace INTELLISTOCKS.API.controller
 {
-    [Route("tasks")]
+    [Route("task")]
     [ApiController]
+    [Tags("Task")]
     public class TasksController : ControllerBase
     {
         private readonly ITaskRepository _taskRepository;

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("INTELLISTOCKS.REPOSITORY")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+184685a1006984de032c436a256c04908bf6a624")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15d67b4f218c9a885ddc7eb8d031a02898812286")]
 [assembly: System.Reflection.AssemblyProductAttribute("INTELLISTOCKS.REPOSITORY")]
 [assembly: System.Reflection.AssemblyTitleAttribute("INTELLISTOCKS.REPOSITORY")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

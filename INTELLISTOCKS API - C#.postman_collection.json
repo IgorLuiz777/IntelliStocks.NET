@@ -1,0 +1,372 @@
+{
+	"info": {
+		"_postman_id": "883bec57-ca3f-4a5e-80b0-75db82b1c0d1",
+		"name": "INTELLISTOCKS API - C#",
+		"description": "Coleção de testes para a testar a API IntelliStocks.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29257649",
+		"_collection_link": "https://www.postman.com/speeding-satellite-21324/workspace/intellistocks/collection/29257649-883bec57-ca3f-4a5e-80b0-75db82b1c0d1?action=share&source=collection_link&creator=29257649"
+	},
+	"item": [
+		{
+			"name": "Note",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5205/note",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"note"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Note",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Title\": \"Meeting Notes\",\n\t\"Content\": \"Discussion on project requirements.\",\n\t\"CreatedDate\": \"2024-09-15T00:00:00\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5205/note",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"note"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Note by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5205/note/2",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"note",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Note",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title\": \"Bebidas da confraternização da empresa.\",\n  \"content\": \"A empresa só se responsabilizará pelos alimentos, as bebidas devem ser trazidas individualmente para o seu próprio consumo\",\n  \"createdDate\": \"2024-09-15T11:59:12.7454692\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5205/note/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"note",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Note",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:5205/note/4",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"note",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Task",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5205/task",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"task"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Task",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Title\": \"Finish Documentation\",\n\t\"Description\": \"Complete the user documentation by end of the week.\",\n\t\"DueTo\": \"2024-09-20T00:00:00\",\n\t\"Priority\": \"HIGH\",\n\t\"Status\": \"TO_DO\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5205/task",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"task"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Task by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5205/task/6",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"task",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Task",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title\": \"Complete Project\",\n    \"description\": \"Finish the IntelliStocks project\",\n    \"dueTo\": \"2024-09-30T00:00:00\",\n    \"priority\": \"LOW\",\n    \"status\": \"DONE\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5205/task/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"task",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Task",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:5205/tasks/8",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"tasks",
+								"8"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Event",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5205/event",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"event"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Event",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Title\": \"Project Kick-off\",\n\t\"Location\": \"Conference Room A\",\n\t\"StartDate\": \"2024-09-18T09:00:00\",\n\t\"EndDate\": \"2024-09-18T11:00:00\",\n\t\"Description\": \"Kick-off meeting for the new project.\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5205/event",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"event"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Event by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5205/event/3",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"event",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Event",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Title\": \"Mudanças no projeto Kick-off.\",\n\t\"Location\": \"Teams - online\",\n\t\"StartDate\": \"2024-09-19T10:00:00\",\n\t\"EndDate\": \"2024-09-19T12:00:00\",\n\t\"Description\": \"Evento para discutir sobre as mudanças no projeto.\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5205/event/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"event",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Event",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:5205/event/1",
+							"host": [
+								"localhost"
+							],
+							"port": "5205",
+							"path": [
+								"event",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
