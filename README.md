@@ -32,11 +32,13 @@ Confira o vídeo de entrega da Spring 3, contendo objetivos do projeto e :
 Confira o vídeo do pitch do nosso projeto no link abaixo:  
 [Assista ao Pitch](https://youtu.be/lpCFoGbBxmY)
 
+Confira o vídeo de entrega da Spring 3, contendo objetivos do projeto e :[Link do vídeo](https://youtu.be/D1EEw_oR_Ec)
+
 Projeto Java: [https://github.com/IgorLuiz777/IntelliStocksApi](https://github.com/IgorLuiz777/IntelliStocksApi) 
 
 Projeto Mobile: [https://github.com/lucasrychlicki/IntelliStocks](https://github.com/lucasrychlicki/IntelliStocks)
 
-Projeto IA: 
+Projeto IA: [https://github.com/CastanhoPh/IntelliStocksAI](https://github.com/CastanhoPh/IntelliStocksAI)
 
 ## Sprints
 

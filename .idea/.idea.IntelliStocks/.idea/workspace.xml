@@ -4,39 +4,18 @@
     <projectFile profileName="IIS Express">INTELLISTOCKS.API/INTELLISTOCKS.API.csproj</projectFile>
     <projectFile profileName="http">INTELLISTOCKS.API/INTELLISTOCKS.API.csproj</projectFile>
     <projectFile profileName="https">INTELLISTOCKS.API/INTELLISTOCKS.API.csproj</projectFile>
+    <projectFile pubXmlPath="INTELLISTOCKS.API/Properties/PublishProfiles/intellistocks-net - FTP.pubxml">INTELLISTOCKS.API/INTELLISTOCKS.API.csproj</projectFile>
+    <projectFile pubXmlPath="INTELLISTOCKS.API/Properties/PublishProfiles/intellistocks-net - FTP1.pubxml">INTELLISTOCKS.API/INTELLISTOCKS.API.csproj</projectFile>
+    <projectFile pubXmlPath="INTELLISTOCKS.API/Properties/PublishProfiles/intellistocks-net - Web Deploy.pubxml">INTELLISTOCKS.API/INTELLISTOCKS.API.csproj</projectFile>
+    <projectFile pubXmlPath="INTELLISTOCKS.API/Properties/PublishProfiles/intellistocks-net - Zip Deploy.pubxml">INTELLISTOCKS.API/INTELLISTOCKS.API.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03c5c4d5-02c3-4817-8ab0-a0769f981bb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/controller/EventsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/events/Events.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/events/EventsMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/event/EventsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/event/IEventRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntelliStocks/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/IntelliStocks/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/IntelliStocks/FileContentIndex/0a5c02da-bc5d-4a14-8cdf-0618dfd16f9d.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/IntelliStocks/FileContentIndex/0de03d85-1893-4345-a2ca-438b6a88e116.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/IntelliStocks/FileContentIndex/7f4f93ce-5a84-4850-8181-8fe51c1e1364.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/IntelliStocks/FileContentIndex/ea855dd6-a059-4f62-bb4e-1199f0dfb0ff.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/IntelliStocks/FileContentIndex/fe090779-f57c-4ecf-8384-453af4b5b65c.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/IntelliStocks/config/applicationhost.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/IntelliStocks/v17/.futdcache.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/IntelliStocks/v17/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/IntelliStocks/v17/.wsuo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/IntelliStocks/v17/DocumentLayout.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/intellistocks.metadata.v7.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/intellistocks.projects.v7.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/CategoriasController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ProdutosController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/UsuariosController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/Program.cs" afterDir="false" />
+    <list default="true" id="03c5c4d5-02c3-4817-8ab0-a0769f981bb0" name="Changes" comment="docs: adding documentation for sprint 3 readme + postman json">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntelliStocks/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntelliStocks/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntelliStocks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntelliStocks/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.pdb" afterDir="false" />
@@ -44,32 +23,24 @@
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/controller/TasksController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/controller/TasksController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/ref/INTELLISTOCKS.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/ref/INTELLISTOCKS.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/refint/INTELLISTOCKS.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/refint/INTELLISTOCKS.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/INTELLISTOCKS.MODELS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/INTELLISTOCKS.MODELS.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/Migrations/FIAPDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/Migrations/FIAPDbContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/bin/Debug/net8.0/INTELLISTOCKS.MODELS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/bin/Debug/net8.0/INTELLISTOCKS.MODELS.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/bin/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/bin/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/db/FIAPDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/db/FIAPDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/note/NoteMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/note/NoteMapping.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/ref/INTELLISTOCKS.MODELS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/ref/INTELLISTOCKS.MODELS.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/refint/INTELLISTOCKS.MODELS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/refint/INTELLISTOCKS.MODELS.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/tasks/TasksMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/tasks/TasksMapping.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.MODELS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.MODELS.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.dll" afterDir="false" />
@@ -77,152 +48,11 @@
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/ref/INTELLISTOCKS.REPOSITORY.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/ref/INTELLISTOCKS.REPOSITORY.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/refint/INTELLISTOCKS.REPOSITORY.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/refint/INTELLISTOCKS.REPOSITORY.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntelliStocks.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240521005841_InitialCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240521005841_InitialCreate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240521010023_InitialCreate2.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240521010023_InitialCreate2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240521010218_InitialCreate3.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240521010218_InitialCreate3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240521010901_InitialCreate4.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20240521010901_InitialCreate4.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/OracleDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Categoria.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/ErrorViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Estoque.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Produto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Usuario.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/OracleDbContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Categorias/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Categorias/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Categorias/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Categorias/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Categorias/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Produtos/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Produtos/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Produtos/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Produtos/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Produtos/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Usuarios/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Usuarios/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Usuarios/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Usuarios/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Usuarios/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ApiEndpoints.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/IntelliStocks.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/IntelliStocks.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/IntelliStocks.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/IntelliStocks.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/IntelliStocks.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/IntelliStocks.RazorAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/IntelliStocks.RazorAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/IntelliStocks.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/IntelliStocks.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/IntelliStocks.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/IntelliStocks.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/IntelliStocks.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/IntelliStocks.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/project.razor.vs.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/IntelliStocks.csproj.EntityFrameworkCore.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/IntelliStocks.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/IntelliStocks.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/IntelliStocks.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/IntelliStocks.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/IntelliStocks.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/IntelliStocks.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/IntelliStocks.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/IntelliStocks.RazorAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/IntelliStocks.RazorAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/IntelliStocks.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/IntelliStocks.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/intelliLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/intelliLogo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/intelliLogo3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/js/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +108,23 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.INTELLISTOCKS.API: http">
+  <component name="RunManager" selected=".NET Launch Settings Profile.INTELLISTOCKS.API: https">
+    <configuration name="INTELLISTOCKS.API: intellistocks-net - FTP" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
+      <riderPublish configuration="Release" platform="Any CPU" publish_profile="intellistocks-net - FTP.pubxml" pubxml_path="$PROJECT_DIR$/INTELLISTOCKS.API/Properties/PublishProfiles/intellistocks-net - FTP.pubxml" user_name="intellistocks-net\$intellistocks-net" uuid_high="-5580715429836996398" uuid_low="-8062249159364057486" />
+      <method v="2" />
+    </configuration>
+    <configuration name="INTELLISTOCKS.API: intellistocks-net - FTP1" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
+      <riderPublish configuration="Release" platform="Any CPU" publish_profile="intellistocks-net - FTP1.pubxml" pubxml_path="$PROJECT_DIR$/INTELLISTOCKS.API/Properties/PublishProfiles/intellistocks-net - FTP1.pubxml" user_name="intellistocks-net\$intellistocks-net" uuid_high="-5580715429836996398" uuid_low="-8062249159364057486" />
+      <method v="2" />
+    </configuration>
+    <configuration name="INTELLISTOCKS.API: intellistocks-net - Web Deploy" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
+      <riderPublish configuration="Release" platform="Any CPU" publish_profile="intellistocks-net - Web Deploy.pubxml" pubxml_path="$PROJECT_DIR$/INTELLISTOCKS.API/Properties/PublishProfiles/intellistocks-net - Web Deploy.pubxml" user_name="$intellistocks-net" uuid_high="-5580715429836996398" uuid_low="-8062249159364057486" />
+      <method v="2" />
+    </configuration>
+    <configuration name="INTELLISTOCKS.API: intellistocks-net - Zip Deploy" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
+      <riderPublish configuration="Release" platform="Any CPU" publish_profile="intellistocks-net - Zip Deploy.pubxml" pubxml_path="$PROJECT_DIR$/INTELLISTOCKS.API/Properties/PublishProfiles/intellistocks-net - Zip Deploy.pubxml" user_name="$intellistocks-net" uuid_high="-5580715429836996398" uuid_low="-8062249159364057486" />
+      <method v="2" />
+    </configuration>
     <configuration name="INTELLISTOCKS.API: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/INTELLISTOCKS.API/INTELLISTOCKS.API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -334,8 +180,17 @@
       <option name="presentableId" value="Default" />
       <updated>1721253029032</updated>
       <workItem from="1726506800843" duration="1345000" />
-      <workItem from="1726515872371" duration="2904000" />
+      <workItem from="1726515872371" duration="9071000" />
     </task>
+    <task id="LOCAL-00001" summary="docs: adding documentation for sprint 3 readme + postman json">
+      <option name="closed" value="true" />
+      <created>1726519102397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726519102397</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,5 +201,7 @@
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="docs: adding documentation for sprint 3 readme + postman json" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: adding documentation for sprint 3 readme + postman json" />
   </component>
 </project>
