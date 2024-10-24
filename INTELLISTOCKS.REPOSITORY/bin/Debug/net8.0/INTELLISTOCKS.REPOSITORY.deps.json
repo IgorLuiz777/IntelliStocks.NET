@@ -372,7 +372,10 @@
           "Oracle.EntityFrameworkCore": "8.23.50"
         },
         "runtime": {
-          "INTELLISTOCKS.MODELS.dll": {}
+          "INTELLISTOCKS.MODELS.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

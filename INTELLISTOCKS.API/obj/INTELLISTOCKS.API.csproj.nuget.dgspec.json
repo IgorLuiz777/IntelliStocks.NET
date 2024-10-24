@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.API\\INTELLISTOCKS.API.csproj": {}
+    "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.API\\INTELLISTOCKS.API.csproj": {}
   },
   "projects": {
-    "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.API\\INTELLISTOCKS.API.csproj": {
+    "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.API\\INTELLISTOCKS.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.API\\INTELLISTOCKS.API.csproj",
+        "projectUniqueName": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.API\\INTELLISTOCKS.API.csproj",
         "projectName": "INTELLISTOCKS.API",
-        "projectPath": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.API\\INTELLISTOCKS.API.csproj",
-        "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.API\\obj\\",
+        "projectPath": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.API\\INTELLISTOCKS.API.csproj",
+        "packagesPath": "C:\\Users\\igor.lima\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\igor.lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -33,11 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {
-                "projectPath": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj"
+              "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {
+                "projectPath": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj"
               },
-              "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.REPOSITORY\\INTELLISTOCKS.REPOSITORY.csproj": {
-                "projectPath": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.REPOSITORY\\INTELLISTOCKS.REPOSITORY.csproj"
+              "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.REPOSITORY\\INTELLISTOCKS.REPOSITORY.csproj": {
+                "projectPath": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.REPOSITORY\\INTELLISTOCKS.REPOSITORY.csproj"
               }
             }
           }
@@ -60,6 +56,12 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -85,25 +87,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {
+    "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
+        "projectUniqueName": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
         "projectName": "INTELLISTOCKS.MODELS",
-        "projectPath": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
-        "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\obj\\",
+        "projectPath": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
+        "packagesPath": "C:\\Users\\igor.lima\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\igor.lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -178,25 +176,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.REPOSITORY\\INTELLISTOCKS.REPOSITORY.csproj": {
+    "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.REPOSITORY\\INTELLISTOCKS.REPOSITORY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.REPOSITORY\\INTELLISTOCKS.REPOSITORY.csproj",
+        "projectUniqueName": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.REPOSITORY\\INTELLISTOCKS.REPOSITORY.csproj",
         "projectName": "INTELLISTOCKS.REPOSITORY",
-        "projectPath": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.REPOSITORY\\INTELLISTOCKS.REPOSITORY.csproj",
-        "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.REPOSITORY\\obj\\",
+        "projectPath": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.REPOSITORY\\INTELLISTOCKS.REPOSITORY.csproj",
+        "packagesPath": "C:\\Users\\igor.lima\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.REPOSITORY\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\igor.lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -211,8 +205,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {
-                "projectPath": "P:\\projects\\intelliStocks.net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj"
+              "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {
+                "projectPath": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj"
               }
             }
           }
@@ -247,7 +241,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

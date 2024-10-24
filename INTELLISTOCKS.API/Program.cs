@@ -11,6 +11,8 @@ using INTELLISTOCKS.MODELS.db;
 using INTELLISTOCKS.REPOSITORY;
 using INTELLISTOCKS.REPOSITORY.events;
 using INTELLISTOCKS.REPOSITORY.repository;
+using INTELLISTOCKS.MODELS.user;
+using INTELLISTOCKS.REPOSITORY.user;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -50,6 +52,8 @@ builder.Services.AddDbContext<FIAPDbContext>(options =>
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<INoteRepository, NoteRepository>();
 builder.Services.AddScoped<IEventRepository, EventsRepository>();
+builder.Services.AddScoped<IRepository<User>, UserRepository>();
+builder.Services.AddScoped<UserRepository>();
 
 var app = builder.Build();
 
