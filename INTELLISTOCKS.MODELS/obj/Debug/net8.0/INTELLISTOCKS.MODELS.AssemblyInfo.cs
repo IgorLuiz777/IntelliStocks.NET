@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("INTELLISTOCKS.MODELS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e930847d1d827f18fafc4e4de8ce6d98bc23ac8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52f7c92d4949a4cbe2c3f2d7a151961a1851b531")]
 [assembly: System.Reflection.AssemblyProductAttribute("INTELLISTOCKS.MODELS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("INTELLISTOCKS.MODELS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

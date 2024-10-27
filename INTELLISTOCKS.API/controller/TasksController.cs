@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using INTELLISTOCKS.MODELS.task;
 using INTELLISTOCKS.REPOSITORY.repository;
 using INTELLISTOCKS.REPOSITORY.user;
+using INTELLISTOCKS.SERVICES;
 
 namespace INTELLISTOCKS.API.controller
 {
@@ -15,11 +16,13 @@ namespace INTELLISTOCKS.API.controller
     {
         private readonly ITaskRepository _taskRepository;
         private readonly UserRepository _userRepository;
+        private readonly EmailService _emailService;
 
-        public TasksController(ITaskRepository taskRepository, UserRepository userRepository)
+        public TasksController(ITaskRepository taskRepository, UserRepository userRepository, EmailService emailService)
         {
             _taskRepository = taskRepository;
             _userRepository = userRepository;
+            _emailService = emailService;
         }
 
         [HttpPost]
@@ -39,8 +42,11 @@ namespace INTELLISTOCKS.API.controller
                 }
 
                 task.ResponsiblesUser = user;
-
                 var createdTask = await _taskRepository.AddTaskAsync(task);
+
+                await _emailService.SendEmailAsync(user.Email, "Uma nova tarefa foi atribuida a você!",
+                    $"Você recebeu uma nova tarefa: {task.Title}");
+
                 var uri = Url.Action("GetTaskById", new { id = createdTask.Id });
                 return Created(uri, createdTask);
             }
@@ -115,6 +121,9 @@ namespace INTELLISTOCKS.API.controller
                 existingTask.Priority = task.Priority;
                 existingTask.Status = task.Status;
                 existingTask.ResponsiblesUser = user;
+
+                await _emailService.SendEmailAsync(user.Email, "Você tem uma tarefa nova ou uma tarefa foi " +
+                                                               "modificada", "Tarefa: " + task.Title);
 
                 var updatedTask = await _taskRepository.UpdateTaskAsync(existingTask);
                 return Ok(updatedTask);

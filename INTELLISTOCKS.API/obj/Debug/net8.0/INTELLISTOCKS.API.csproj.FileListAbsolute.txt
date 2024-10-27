@@ -286,3 +286,8 @@ P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.API\obj\Debug\net8
 P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.API\obj\Debug\net8.0\INTELLISTOCKS.API.genruntimeconfig.cache
 P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.API\obj\Debug\net8.0\ref\INTELLISTOCKS.API.dll
 P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.API\bin\Debug\net8.0\SendGrid.dll
+P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.API\bin\Debug\net8.0\StarkbankEcdsa.dll
+P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.API\bin\Debug\net8.0\INTELLISTOCKS.SERVICES.dll
+P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.API\bin\Debug\net8.0\INTELLISTOCKS.SERVICES.pdb

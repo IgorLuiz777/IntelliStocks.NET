@@ -13,6 +13,7 @@ using INTELLISTOCKS.REPOSITORY.events;
 using INTELLISTOCKS.REPOSITORY.repository;
 using INTELLISTOCKS.MODELS.user;
 using INTELLISTOCKS.REPOSITORY.user;
+using INTELLISTOCKS.SERVICES;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -54,6 +55,9 @@ builder.Services.AddScoped<INoteRepository, NoteRepository>();
 builder.Services.AddScoped<IEventRepository, EventsRepository>();
 builder.Services.AddScoped<IRepository<User>, UserRepository>();
 builder.Services.AddScoped<UserRepository>();
+
+builder.Services.AddHttpClient<EmailService>();
+
 
 var app = builder.Build();
 
