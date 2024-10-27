@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace INTELLISTOCKS.API.controller
 {
+    // TODO: ERROS PERSONALIZADOS 
     [Route("user")]
     [ApiController]
     public class UserController : ControllerBase

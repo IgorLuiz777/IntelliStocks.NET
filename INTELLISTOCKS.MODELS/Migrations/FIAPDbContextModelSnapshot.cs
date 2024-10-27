@@ -96,6 +96,9 @@ namespace INTELLISTOCKS.MODELS.Migrations
                     b.Property<int>("Priority")
                         .HasColumnType("NUMBER(10)");
 
+                    b.Property<int>("ResponsiblesUserId")
+                        .HasColumnType("NUMBER(10)");
+
                     b.Property<int>("Status")
                         .HasColumnType("NUMBER(10)");
 
@@ -105,6 +108,8 @@ namespace INTELLISTOCKS.MODELS.Migrations
                         .HasColumnType("NVARCHAR2(100)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ResponsiblesUserId");
 
                     b.ToTable("INTELLISTOCKS_TASKS", (string)null);
                 });
@@ -132,6 +137,17 @@ namespace INTELLISTOCKS.MODELS.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("INTELLISTOCKS.MODELS.task.Tasks", b =>
+                {
+                    b.HasOne("INTELLISTOCKS.MODELS.user.User", "ResponsiblesUser")
+                        .WithMany()
+                        .HasForeignKey("ResponsiblesUserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("ResponsiblesUser");
                 });
 #pragma warning restore 612, 618
         }

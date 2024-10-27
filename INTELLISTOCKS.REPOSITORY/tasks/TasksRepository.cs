@@ -15,12 +15,12 @@ namespace INTELLISTOCKS.REPOSITORY.repository
 
         public async Task<List<Tasks>> GetAllTasksAsync()
         {
-            return await _context.Tasks.ToListAsync();
+            return await _context.Tasks.Include(t => t.ResponsiblesUser).ToListAsync();
         }
 
         public async Task<Tasks?> GetTaskByIdAsync(int id)
         {
-            return await _context.Tasks.FindAsync(id);
+            return await _context.Tasks.Include(t => t.ResponsiblesUser).FirstOrDefaultAsync(t => t.Id == id);
         }
 
         public async Task<Tasks> AddTaskAsync(Tasks task)

@@ -18,6 +18,14 @@
           "INTELLISTOCKS.API.dll": {}
         }
       },
+      "BCrypt.Net-Next/4.0.3": {
+        "runtime": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.0.3.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -660,6 +668,7 @@
       "System.Threading.Channels/6.0.0": {},
       "INTELLISTOCKS.MODELS/1.0.0": {
         "dependencies": {
+          "BCrypt.Net-Next": "4.0.3",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.8",
           "Microsoft.Extensions.Configuration": "8.0.0",
@@ -667,10 +676,7 @@
           "Oracle.EntityFrameworkCore": "8.23.50"
         },
         "runtime": {
-          "INTELLISTOCKS.MODELS.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "INTELLISTOCKS.MODELS.dll": {}
         }
       },
       "INTELLISTOCKS.REPOSITORY/1.0.0": {
@@ -678,10 +684,7 @@
           "INTELLISTOCKS.MODELS": "1.0.0"
         },
         "runtime": {
-          "INTELLISTOCKS.REPOSITORY.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "INTELLISTOCKS.REPOSITORY.dll": {}
         }
       }
     }
@@ -691,6 +694,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BCrypt.Net-Next/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
+      "path": "bcrypt.net-next/4.0.3",
+      "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

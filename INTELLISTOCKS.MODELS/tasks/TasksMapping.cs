@@ -20,5 +20,10 @@ public class TasksMapping : IEntityTypeConfiguration<Tasks>
         builder.Property(t => t.DueTo);
 
         builder.Property(t => t.Status).IsRequired();
+
+        builder.HasOne(t => t.ResponsiblesUser)
+            .WithMany() 
+            .HasForeignKey(t => t.ResponsiblesUserId) 
+            .OnDelete(DeleteBehavior.Restrict);
     }
 }

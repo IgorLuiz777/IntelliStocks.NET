@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {}
+    "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {
+    "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
+        "projectUniqueName": "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
         "projectName": "INTELLISTOCKS.MODELS",
-        "projectPath": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
-        "packagesPath": "C:\\Users\\igor.lima\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igor.lima\\Desktop\\intelli\\intelli-api-c#\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\obj\\",
+        "projectPath": "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
+        "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
+        "outputPath": "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\igor.lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -89,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

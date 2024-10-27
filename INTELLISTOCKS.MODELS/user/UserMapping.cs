@@ -17,7 +17,7 @@ public class UserMapping : IEntityTypeConfiguration<User>
 
         builder.Property(u => u.Name);
 
-        builder.Property(u => u.Email);
+        builder.HasIndex(u => u.Email).IsUnique();
 
         builder.Property(u => u.Password);
     }

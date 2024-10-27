@@ -1,4 +1,6 @@
-﻿namespace INTELLISTOCKS.MODELS.task;
+﻿using INTELLISTOCKS.MODELS.user;
+
+namespace INTELLISTOCKS.MODELS.task;
 
 
 public class Tasks // Usei o nome no plural para diferenciar com a palavra reservada Task
@@ -13,7 +15,9 @@ public class Tasks // Usei o nome no plural para diferenciar com a palavra reser
     
     public Priority Priority { get; set; }
     
-    //public List<User> ResponsiblesUser { get; set; }
+    public User? ResponsiblesUser { get; set; }
+    
+    public int ResponsiblesUserId { get; set; }
     
     public Status Status { get; set; }
 }

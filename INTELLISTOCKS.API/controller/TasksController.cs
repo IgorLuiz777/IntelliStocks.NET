@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using INTELLISTOCKS.MODELS.task;
 using INTELLISTOCKS.REPOSITORY.repository;
+using INTELLISTOCKS.REPOSITORY.user;
 
 namespace INTELLISTOCKS.API.controller
 {
@@ -13,10 +14,12 @@ namespace INTELLISTOCKS.API.controller
     public class TasksController : ControllerBase
     {
         private readonly ITaskRepository _taskRepository;
+        private readonly UserRepository _userRepository;
 
-        public TasksController(ITaskRepository taskRepository)
+        public TasksController(ITaskRepository taskRepository, UserRepository userRepository)
         {
             _taskRepository = taskRepository;
+            _userRepository = userRepository;
         }
 
         [HttpPost]
@@ -29,9 +32,17 @@ namespace INTELLISTOCKS.API.controller
         {
             try
             {
+                var user = await _userRepository.GetById(task.ResponsiblesUserId);
+                if (user == null)
+                {
+                    return BadRequest("User not found.");
+                }
+
+                task.ResponsiblesUser = user;
+
                 var createdTask = await _taskRepository.AddTaskAsync(task);
                 var uri = Url.Action("GetTaskById", new { id = createdTask.Id });
-                return Created(uri ,createdTask);
+                return Created(uri, createdTask);
             }
             catch (Exception error)
             {
@@ -76,7 +87,7 @@ namespace INTELLISTOCKS.API.controller
                 return StatusCode(StatusCodes.Status500InternalServerError, $"Internal error: {error.Message}");
             }
         }
-        
+
         [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -92,14 +103,20 @@ namespace INTELLISTOCKS.API.controller
                     return NotFound($"Task with ID {id} not found.");
                 }
 
+                var user = await _userRepository.GetById(task.ResponsiblesUserId);
+                if (user == null)
+                {
+                    return BadRequest("User not found.");
+                }
+
                 existingTask.Title = task.Title;
                 existingTask.Description = task.Description;
                 existingTask.DueTo = task.DueTo;
                 existingTask.Priority = task.Priority;
                 existingTask.Status = task.Status;
+                existingTask.ResponsiblesUser = user;
 
                 var updatedTask = await _taskRepository.UpdateTaskAsync(existingTask);
-
                 return Ok(updatedTask);
             }
             catch (Exception error)
@@ -107,7 +124,6 @@ namespace INTELLISTOCKS.API.controller
                 return StatusCode(StatusCodes.Status500InternalServerError, $"Internal error: {error.Message}");
             }
         }
-
 
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]

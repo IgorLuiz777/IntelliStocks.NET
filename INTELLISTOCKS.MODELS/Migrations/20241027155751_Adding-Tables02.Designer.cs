@@ -12,8 +12,8 @@ using Oracle.EntityFrameworkCore.Metadata;
 namespace INTELLISTOCKS.MODELS.Migrations
 {
     [DbContext(typeof(FIAPDbContext))]
-    [Migration("20240915190036_CreateEvent")]
-    partial class CreateEvent
+    [Migration("20241027155751_Adding-Tables02")]
+    partial class AddingTables02
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -99,6 +99,9 @@ namespace INTELLISTOCKS.MODELS.Migrations
                     b.Property<int>("Priority")
                         .HasColumnType("NUMBER(10)");
 
+                    b.Property<int>("ResponsiblesUserId")
+                        .HasColumnType("NUMBER(10)");
+
                     b.Property<int>("Status")
                         .HasColumnType("NUMBER(10)");
 
@@ -109,7 +112,45 @@ namespace INTELLISTOCKS.MODELS.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ResponsiblesUserId");
+
                     b.ToTable("INTELLISTOCKS_TASKS", (string)null);
+                });
+
+            modelBuilder.Entity("INTELLISTOCKS.MODELS.user.User", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("INTELLISTOCKS.MODELS.task.Tasks", b =>
+                {
+                    b.HasOne("INTELLISTOCKS.MODELS.user.User", "ResponsiblesUser")
+                        .WithMany()
+                        .HasForeignKey("ResponsiblesUserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("ResponsiblesUser");
                 });
 #pragma warning restore 612, 618
         }
