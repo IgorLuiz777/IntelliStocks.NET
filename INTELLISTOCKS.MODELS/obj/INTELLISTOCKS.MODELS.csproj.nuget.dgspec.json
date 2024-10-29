@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {}
+    "C:\\Users\\labsfiap\\Desktop\\intelli\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {}
   },
   "projects": {
-    "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {
+    "C:\\Users\\labsfiap\\Desktop\\intelli\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
+        "projectUniqueName": "C:\\Users\\labsfiap\\Desktop\\intelli\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
         "projectName": "INTELLISTOCKS.MODELS",
-        "projectPath": "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
-        "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\obj\\",
+        "projectPath": "C:\\Users\\labsfiap\\Desktop\\intelli\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj",
+        "packagesPath": "C:\\Softwares\\Nuget",
+        "outputPath": "C:\\Users\\labsfiap\\Desktop\\intelli\\INTELLISTOCKS.MODELS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "c:\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -76,6 +76,22 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.ML.FastTree": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.ML.LightGbm": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.ML.TimeSeries": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Oracle.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.23.50, )"
@@ -97,7 +113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -11,3 +11,16 @@ P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.SERVICES\obj\Debug
 P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.SERVICES\obj\Debug\net8.0\refint\INTELLISTOCKS.SERVICES.dll
 P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.SERVICES\obj\Debug\net8.0\INTELLISTOCKS.SERVICES.pdb
 P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.SERVICES\obj\Debug\net8.0\ref\INTELLISTOCKS.SERVICES.dll
+C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\bin\Debug\net8.0\INTELLISTOCKS.SERVICES.deps.json
+C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\bin\Debug\net8.0\INTELLISTOCKS.SERVICES.dll
+C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\bin\Debug\net8.0\INTELLISTOCKS.SERVICES.pdb
+C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\obj\Debug\net8.0\INTELLISTOCKS.SERVICES.csproj.AssemblyReference.cache
+C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\obj\Debug\net8.0\INTELLISTOCKS.SERVICES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\obj\Debug\net8.0\INTELLISTOCKS.SERVICES.AssemblyInfoInputs.cache
+C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\obj\Debug\net8.0\INTELLISTOCKS.SERVICES.AssemblyInfo.cs
+C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\obj\Debug\net8.0\INTELLISTOCKS.SERVICES.csproj.CoreCompileInputs.cache
+C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\obj\Debug\net8.0\INTELLISTOCKS.SERVICES.sourcelink.json
+C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\obj\Debug\net8.0\INTELLISTOCKS.SERVICES.dll
+C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\obj\Debug\net8.0\refint\INTELLISTOCKS.SERVICES.dll
+C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\obj\Debug\net8.0\INTELLISTOCKS.SERVICES.pdb
+C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\obj\Debug\net8.0\ref\INTELLISTOCKS.SERVICES.dll

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = INTELLISTOCKS.SERVICES
-build_property.ProjectDir = P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.SERVICES\
+build_property.ProjectDir = C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.SERVICES\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
