@@ -70,6 +70,13 @@ Projeto IA: [https://github.com/CastanhoPh/IntelliStocksAI](https://github.com/C
 **Nota:** Embora cada membro tenha responsabilidades específicas, 
 todos contribuem em todas as disciplinas e para o projeto como um todo.
 
+## Funcionamento dos Testes e do envio de Email
+
+### Testes unitários
+![Testes](tests.png)
+### Envio de email ao criar uma nova Tarefa
+![Email](teste_email.png)
+
 ## Arquitetura - Camadas
 
 ![Camadas das arquiteturas](diagrama_arquitetura.jpg)
@@ -81,7 +88,7 @@ todos contribuem em todas as disciplinas e para o projeto como um todo.
 - [x] CRUD Anotações
 - [x] CRUD Eventos
 - [ ] Autenticação + Usuário
-- [ ] Refatoramento
+- [x] Refatoramento
 - [x] Documentação
 
 ## Como rodar

@@ -15,101 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03c5c4d5-02c3-4817-8ab0-a0769f981bb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/controller/MLController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntelliStocks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntelliStocks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/INTELLISTOCKS.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/INTELLISTOCKS.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.MODELS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.MODELS.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.SERVICES.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.SERVICES.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.SERVICES.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/bin/Debug/net8.0/INTELLISTOCKS.SERVICES.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/INTELLISTOCKS.API.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/ref/INTELLISTOCKS.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/ref/INTELLISTOCKS.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/refint/INTELLISTOCKS.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/refint/INTELLISTOCKS.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/INTELLISTOCKS.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/INTELLISTOCKS.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/INTELLISTOCKS.ML.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/INTELLISTOCKS.ML.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/MLModel.mlnet" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/MLModels/MLModel.mlnet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/bin/Debug/net6.0/INTELLISTOCKS.ML.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/bin/Debug/net6.0/INTELLISTOCKS.ML.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/bin/Debug/net6.0/INTELLISTOCKS.ML.exe" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/bin/Debug/net6.0/INTELLISTOCKS.ML.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/bin/Debug/net6.0/INTELLISTOCKS.ML.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/bin/Debug/net6.0/INTELLISTOCKS.ML.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/bin/Debug/net6.0/MLModel.mlnet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/INTELLISTOCKS.ML.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/ref/INTELLISTOCKS.ML.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/ref/INTELLISTOCKS.ML.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/refint/INTELLISTOCKS.ML.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/Debug/net6.0/refint/INTELLISTOCKS.ML.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/bin/Debug/net8.0/INTELLISTOCKS.MODELS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/bin/Debug/net8.0/INTELLISTOCKS.MODELS.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/bin/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/bin/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/INTELLISTOCKS.MODELS.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/ref/INTELLISTOCKS.MODELS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/ref/INTELLISTOCKS.MODELS.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/refint/INTELLISTOCKS.MODELS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/Debug/net8.0/refint/INTELLISTOCKS.MODELS.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.MODELS/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.MODELS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.MODELS.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.MODELS.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/bin/Debug/net8.0/INTELLISTOCKS.REPOSITORY.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/INTELLISTOCKS.REPOSITORY.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/ref/INTELLISTOCKS.REPOSITORY.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/ref/INTELLISTOCKS.REPOSITORY.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/refint/INTELLISTOCKS.REPOSITORY.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/Debug/net8.0/refint/INTELLISTOCKS.REPOSITORY.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.REPOSITORY/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/bin/Debug/net8.0/INTELLISTOCKS.SERVICES.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/bin/Debug/net8.0/INTELLISTOCKS.SERVICES.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/bin/Debug/net8.0/INTELLISTOCKS.SERVICES.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/bin/Debug/net8.0/INTELLISTOCKS.SERVICES.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/INTELLISTOCKS.SERVICES.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/INTELLISTOCKS.SERVICES.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/INTELLISTOCKS.SERVICES.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/INTELLISTOCKS.SERVICES.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/INTELLISTOCKS.SERVICES.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/INTELLISTOCKS.SERVICES.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/INTELLISTOCKS.SERVICES.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/INTELLISTOCKS.SERVICES.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/INTELLISTOCKS.SERVICES.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/INTELLISTOCKS.SERVICES.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/ref/INTELLISTOCKS.SERVICES.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/ref/INTELLISTOCKS.SERVICES.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/refint/INTELLISTOCKS.SERVICES.dll" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/Debug/net8.0/refint/INTELLISTOCKS.SERVICES.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.SERVICES/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.TESTS/obj/Debug/net8.0/INTELLISTOCKS.TESTS.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.TESTS/obj/Debug/net8.0/INTELLISTOCKS.TESTS.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.TESTS/obj/Debug/net8.0/INTELLISTOCKS.TESTS.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.TESTS/obj/Debug/net8.0/INTELLISTOCKS.TESTS.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.TESTS/obj/Debug/net8.0/INTELLISTOCKS.TESTS.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.TESTS/obj/Debug/net8.0/INTELLISTOCKS.TESTS.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.TESTS/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.TESTS/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTELLISTOCKS.TESTS/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/INTELLISTOCKS.TESTS/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INTELLISTOCKS.ML/MLModels/MLModel.mlnet" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,29 +55,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.INTELLISTOCKS.API: IIS Express.executor": "Run",
-    ".NET Launch Settings Profile.INTELLISTOCKS.API: http.executor": "Run",
-    ".NET Launch Settings Profile.INTELLISTOCKS.API: https.executor": "Run",
-    ".NET Launch Settings Profile.INTELLISTOCKS.ML.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "P:/projects/intellistocks-net/IntelliStocks.NET/IntelliStocks.sln",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.INTELLISTOCKS.API: IIS Express.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.INTELLISTOCKS.API: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.INTELLISTOCKS.API: https.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.INTELLISTOCKS.ML.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;P:/projects/intellistocks-net/IntelliStocks.NET/IntelliStocks.sln&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.maddyhome.idea.vim.ui.VimEmulationConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Markdown"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Markdown&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.INTELLISTOCKS.API: IIS Express">
     <configuration name="INTELLISTOCKS.API: intellistocks-net - FTP" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
       <riderPublish configuration="Release" platform="Any CPU" publish_profile="intellistocks-net - FTP.pubxml" pubxml_path="$PROJECT_DIR$/INTELLISTOCKS.API/Properties/PublishProfiles/intellistocks-net - FTP.pubxml" user_name="intellistocks-net\$intellistocks-net" uuid_high="-5580715429836996398" uuid_low="-8062249159364057486" />
@@ -277,7 +183,7 @@
       <workItem from="1730653021692" duration="2407000" />
       <workItem from="1730669931116" duration="1833000" />
       <workItem from="1730673972887" duration="3501000" />
-      <workItem from="1730678879754" duration="2108000" />
+      <workItem from="1730678879754" duration="2235000" />
     </task>
     <task id="LOCAL-00001" summary="docs: adding documentation for sprint 3 readme + postman json">
       <option name="closed" value="true" />
@@ -287,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726519102397</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: adding ML endpoint to API controller">
+      <option name="closed" value="true" />
+      <created>1730681112400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730681112400</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +214,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="docs: adding documentation for sprint 3 readme + postman json" />
     <MESSAGE value="feat: adding Link between User and Task" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adding Link between User and Task" />
+    <MESSAGE value="feat: adding ML endpoint to API controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adding ML endpoint to API controller" />
   </component>
 </project>
