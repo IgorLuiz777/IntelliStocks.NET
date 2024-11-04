@@ -14,11 +14,11 @@ namespace INTELLISTOCKS.API.controller
     [Tags("Task")]
     public class TasksController : ControllerBase
     {
-        private readonly ITaskRepository _taskRepository;
+        private readonly TaskRepository _taskRepository;
         private readonly UserRepository _userRepository;
         private readonly EmailService _emailService;
 
-        public TasksController(ITaskRepository taskRepository, UserRepository userRepository, EmailService emailService)
+        public TasksController(TaskRepository taskRepository, UserRepository userRepository, EmailService emailService)
         {
             _taskRepository = taskRepository;
             _userRepository = userRepository;
@@ -42,7 +42,7 @@ namespace INTELLISTOCKS.API.controller
                 }
 
                 task.ResponsiblesUser = user;
-                var createdTask = await _taskRepository.AddTaskAsync(task);
+                var createdTask = await _taskRepository.Create(task);
 
                 await _emailService.SendEmailAsync(user.Email, "Uma nova tarefa foi atribuida a você!",
                     $"Você recebeu uma nova tarefa: {task.Title}");
@@ -63,7 +63,7 @@ namespace INTELLISTOCKS.API.controller
         {
             try
             {
-                var tasks = await _taskRepository.GetAllTasksAsync();
+                var tasks = await _taskRepository.GetAll();
                 return Ok(tasks);
             }
             catch (Exception error)
@@ -80,7 +80,7 @@ namespace INTELLISTOCKS.API.controller
         {
             try
             {
-                var task = await _taskRepository.GetTaskByIdAsync(id);
+                var task = await _taskRepository.GetById(id);
                 if (task == null)
                 {
                     return NotFound($"Task with ID {id} not found.");
@@ -103,7 +103,7 @@ namespace INTELLISTOCKS.API.controller
         {
             try
             {
-                var existingTask = await _taskRepository.GetTaskByIdAsync(id);
+                var existingTask = await _taskRepository.GetById(id);
                 if (existingTask == null)
                 {
                     return NotFound($"Task with ID {id} not found.");
@@ -125,7 +125,7 @@ namespace INTELLISTOCKS.API.controller
                 await _emailService.SendEmailAsync(user.Email, "Você tem uma tarefa nova ou uma tarefa foi " +
                                                                "modificada", "Tarefa: " + task.Title);
 
-                var updatedTask = await _taskRepository.UpdateTaskAsync(existingTask);
+                var updatedTask = await _taskRepository.Update(existingTask);
                 return Ok(updatedTask);
             }
             catch (Exception error)
@@ -142,13 +142,13 @@ namespace INTELLISTOCKS.API.controller
         {
             try
             {
-                var task = await _taskRepository.GetTaskByIdAsync(id);
+                var task = await _taskRepository.GetById(id);
                 if (task == null)
                 {
                     return NotFound($"Task with ID {id} not found.");
                 }
 
-                await _taskRepository.DeleteTaskAsync(id);
+                await _taskRepository.Delete(id);
                 return NoContent();
             }
             catch (Exception error)

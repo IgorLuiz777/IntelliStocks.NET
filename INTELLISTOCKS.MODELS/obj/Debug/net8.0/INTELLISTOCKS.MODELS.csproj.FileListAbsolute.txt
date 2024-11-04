@@ -59,3 +59,4 @@ C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.MODELS\obj\Debug\net8.0\refint\I
 C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.MODELS\obj\Debug\net8.0\INTELLISTOCKS.MODELS.pdb
 C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.MODELS\obj\Debug\net8.0\INTELLISTOCKS.MODELS.genruntimeconfig.cache
 C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.MODELS\obj\Debug\net8.0\ref\INTELLISTOCKS.MODELS.dll
+P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.MODELS\bin\Debug\net8.0\MLModel.mlnet

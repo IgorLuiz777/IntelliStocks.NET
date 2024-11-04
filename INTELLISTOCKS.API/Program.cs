@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 using INTELLISTOCKS.MODELS.db;
+using INTELLISTOCKS.MODELS.events;
+using INTELLISTOCKS.MODELS.note;
+using INTELLISTOCKS.MODELS.task;
 using INTELLISTOCKS.REPOSITORY;
 using INTELLISTOCKS.REPOSITORY.events;
 using INTELLISTOCKS.REPOSITORY.repository;
@@ -50,9 +53,12 @@ builder.Services.AddDbContext<FIAPDbContext>(options =>
     options.UseOracle(builder.Configuration.GetConnectionString("FIAPDatabase"));
 });
 
-builder.Services.AddScoped<ITaskRepository, TaskRepository>();
-builder.Services.AddScoped<INoteRepository, NoteRepository>();
-builder.Services.AddScoped<IEventRepository, EventsRepository>();
+builder.Services.AddScoped<IRepository<Tasks>, TaskRepository>();
+builder.Services.AddScoped<TaskRepository>();
+builder.Services.AddScoped<IRepository<Note>, NoteRepository>();
+builder.Services.AddScoped<NoteRepository>();
+builder.Services.AddScoped<IRepository<Events>, EventsRepository>();
+builder.Services.AddScoped<EventsRepository>();
 builder.Services.AddScoped<IRepository<User>, UserRepository>();
 builder.Services.AddScoped<UserRepository>();
 

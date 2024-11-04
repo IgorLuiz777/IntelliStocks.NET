@@ -9,9 +9,9 @@ namespace INTELLISTOCKS.API.controller;
 [ApiController]
 public class NoteController : ControllerBase
 {
-    private readonly INoteRepository _noteRepository;
+    private readonly NoteRepository _noteRepository;
 
-    public NoteController(INoteRepository noteRepository)
+    public NoteController(NoteRepository noteRepository)
     {
         _noteRepository = noteRepository;
     }
@@ -26,7 +26,7 @@ public class NoteController : ControllerBase
     {
         try
         {
-            var createdNote = await _noteRepository.CreateNote(note);
+            var createdNote = await _noteRepository.Create(note);
             var uri = Url.Action("GetNoteById", new { id = createdNote.ID });
             return Created(uri, createdNote);
         }
@@ -43,7 +43,7 @@ public class NoteController : ControllerBase
     {
         try
         {
-            var notes = await _noteRepository.GetAllNotes();
+            var notes = await _noteRepository.GetAll();
             return Ok(notes);
         }
         catch (Exception error)
@@ -60,7 +60,7 @@ public class NoteController : ControllerBase
     {
         try
         {
-            var note = await _noteRepository.GetNoteById(id);
+            var note = await _noteRepository.GetById(id);
             if (note == null) return NotFound("Note not found with id: " + id);
             return Ok(note);
         }
@@ -80,12 +80,12 @@ public class NoteController : ControllerBase
     {
         try
         {
-            var foundNote = await _noteRepository.GetNoteById(id);
+            var foundNote = await _noteRepository.GetById(id);
             if (foundNote == null) return NotFound("Note not found with id: " + id);
             foundNote.Title = note.Title;
             foundNote.Content = note.Content;
             
-            var updatedNote = await _noteRepository.UpdateNote(foundNote);
+            var updatedNote = await _noteRepository.Update(foundNote);
             return Ok(updatedNote);
         }
         catch (Exception error)
@@ -102,9 +102,9 @@ public class NoteController : ControllerBase
     {
         try
         {
-            var note = await _noteRepository.GetNoteById(id);
+            var note = await _noteRepository.GetById(id);
             if (note == null) return NotFound("Note not found with id: " + id);
-            await _noteRepository.DeleteNote(id);
+            await _noteRepository.Delete(id);
             return NoContent();
         }
         catch (Exception error)

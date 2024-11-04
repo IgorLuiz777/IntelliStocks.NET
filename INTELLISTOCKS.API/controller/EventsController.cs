@@ -10,9 +10,9 @@ namespace INTELLISTOCKS.API.controller;
 [Tags("Event")]
 public class EventsController : ControllerBase
 {
-    private readonly IEventRepository _eventRepository;
+    private readonly EventsRepository _eventRepository;
 
-    public EventsController(IEventRepository eventRepository)
+    public EventsController(EventsRepository eventRepository)
     {
         _eventRepository = eventRepository;
     }
@@ -27,7 +27,7 @@ public class EventsController : ControllerBase
     {
         try
         {
-            var createdEvent = await _eventRepository.CreateEvent(events);
+            var createdEvent = await _eventRepository.Create(events);
             var uri = Url.Action("GetEventById", new { id = createdEvent.Id });
             return Created(uri, createdEvent);
         }
@@ -44,7 +44,7 @@ public class EventsController : ControllerBase
     {
         try
         {
-            var events = await _eventRepository.GetAllEvents();
+            var events = await _eventRepository.GetAll();
             return Ok(events);
         }
         catch (Exception error)
@@ -61,7 +61,7 @@ public class EventsController : ControllerBase
     {
         try
         {
-            var events = await _eventRepository.GetEventById(id);
+            var events = await _eventRepository.GetById(id);
             if (events == null) return NotFound("Event not found with id: " + id);
             return Ok(events);
         }
@@ -81,7 +81,7 @@ public class EventsController : ControllerBase
     {
         try
         {
-            var foundEvent = await _eventRepository.GetEventById(id);
+            var foundEvent = await _eventRepository.GetById(id);
             if (foundEvent == null) return NotFound("Event not found with id: " + id);
             foundEvent.Title = events.Title;
             foundEvent.Description = events.Description;
@@ -89,7 +89,7 @@ public class EventsController : ControllerBase
             foundEvent.StartDate = events.StartDate;
             foundEvent.EndDate = events.EndDate;
             
-            var updatedEvent = await _eventRepository.UpdateEvent(foundEvent);
+            var updatedEvent = await _eventRepository.Update(foundEvent);
             return Ok(updatedEvent);
         }
         catch (Exception error)
@@ -106,9 +106,9 @@ public class EventsController : ControllerBase
     {
         try
         {
-            var events = await _eventRepository.GetEventById(id);
+            var events = await _eventRepository.GetById(id);
             if (events == null) return NotFound("Event not found with id: " + id);
-            await _eventRepository.DeleteEvent(id);
+            await _eventRepository.Delete(id);
             return NoContent();
         }
         catch (Exception error)

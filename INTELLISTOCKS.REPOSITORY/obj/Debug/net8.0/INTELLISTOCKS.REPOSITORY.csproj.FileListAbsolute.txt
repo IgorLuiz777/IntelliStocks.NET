@@ -63,3 +63,4 @@ C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.REPOSITORY\obj\Debug\net8.0\INTE
 C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.REPOSITORY\obj\Debug\net8.0\refint\INTELLISTOCKS.REPOSITORY.dll
 C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.REPOSITORY\obj\Debug\net8.0\INTELLISTOCKS.REPOSITORY.pdb
 C:\Users\labsfiap\Desktop\intelli\INTELLISTOCKS.REPOSITORY\obj\Debug\net8.0\ref\INTELLISTOCKS.REPOSITORY.dll
+P:\projects\intellistocks-net\IntelliStocks.NET\INTELLISTOCKS.REPOSITORY\bin\Debug\net8.0\MLModel.mlnet

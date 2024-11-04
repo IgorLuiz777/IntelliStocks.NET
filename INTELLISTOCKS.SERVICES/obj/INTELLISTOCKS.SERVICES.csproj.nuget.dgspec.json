@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\labsfiap\\Desktop\\intelli\\INTELLISTOCKS.SERVICES\\INTELLISTOCKS.SERVICES.csproj": {}
+    "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.SERVICES\\INTELLISTOCKS.SERVICES.csproj": {}
   },
   "projects": {
-    "C:\\Users\\labsfiap\\Desktop\\intelli\\INTELLISTOCKS.SERVICES\\INTELLISTOCKS.SERVICES.csproj": {
+    "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.SERVICES\\INTELLISTOCKS.SERVICES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\labsfiap\\Desktop\\intelli\\INTELLISTOCKS.SERVICES\\INTELLISTOCKS.SERVICES.csproj",
+        "projectUniqueName": "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.SERVICES\\INTELLISTOCKS.SERVICES.csproj",
         "projectName": "INTELLISTOCKS.SERVICES",
-        "projectPath": "C:\\Users\\labsfiap\\Desktop\\intelli\\INTELLISTOCKS.SERVICES\\INTELLISTOCKS.SERVICES.csproj",
-        "packagesPath": "C:\\Softwares\\Nuget",
-        "outputPath": "C:\\Users\\labsfiap\\Desktop\\intelli\\INTELLISTOCKS.SERVICES\\obj\\",
+        "projectPath": "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.SERVICES\\INTELLISTOCKS.SERVICES.csproj",
+        "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
+        "outputPath": "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.SERVICES\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "c:\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
