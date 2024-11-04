@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\INTELLISTOCKS.ML.props" />
-</Project>
