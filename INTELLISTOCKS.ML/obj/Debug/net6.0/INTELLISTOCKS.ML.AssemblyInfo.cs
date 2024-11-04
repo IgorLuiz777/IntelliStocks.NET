@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("INTELLISTOCKS.ML")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94999da287af6302305c419930d34b88cfb81112")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+153c1b78dbab9f722f20d245505176481d9fee3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("INTELLISTOCKS.ML")]
 [assembly: System.Reflection.AssemblyTitleAttribute("INTELLISTOCKS.ML")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "Qimpj0BCEx8Vt628yWei2nncIK5yvjbFDRueFwSsHr0=",
+  "Hash": "AH3f4k488rh/EEYhBjmLzs51l93txB/Rxh2eDCCSqIQ=",
   "Source": "INTELLISTOCKS.API",
   "BasePath": "_content/INTELLISTOCKS.API",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.ML\\INTELLISTOCKS.ML.csproj",
+      "Version": 2,
+      "Source": "INTELLISTOCKS.ML",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

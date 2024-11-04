@@ -16,6 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\INTELLISTOCKS.ML\INTELLISTOCKS.ML.csproj" />
       <ProjectReference Include="..\INTELLISTOCKS.MODELS\INTELLISTOCKS.MODELS.csproj" />
       <ProjectReference Include="..\INTELLISTOCKS.REPOSITORY\INTELLISTOCKS.REPOSITORY.csproj" />
       <ProjectReference Include="..\INTELLISTOCKS.SERVICES\INTELLISTOCKS.SERVICES.csproj" />

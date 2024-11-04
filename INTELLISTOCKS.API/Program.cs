@@ -1,4 +1,3 @@
-// Program.cs
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -7,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
+using Microsoft.Extensions.ML;
 using INTELLISTOCKS.MODELS.db;
 using INTELLISTOCKS.MODELS.events;
 using INTELLISTOCKS.MODELS.note;
@@ -18,9 +18,10 @@ using INTELLISTOCKS.MODELS.user;
 using INTELLISTOCKS.REPOSITORY.user;
 using INTELLISTOCKS.SERVICES;
 
+var modelPath = @"..\..\IntelliStocks.NET\INTELLISTOCKS.ML\MLModels\MLModel.mlnet";
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Usei para usar o ENUM como string
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
@@ -48,6 +49,7 @@ builder.Services.AddSwaggerGen(swagger =>
     });
 });
 
+// Configuração do DbContext
 builder.Services.AddDbContext<FIAPDbContext>(options =>
 {
     options.UseOracle(builder.Configuration.GetConnectionString("FIAPDatabase"));
@@ -64,6 +66,8 @@ builder.Services.AddScoped<UserRepository>();
 
 builder.Services.AddHttpClient<EmailService>();
 
+builder.Services.AddPredictionEnginePool<MLModel.ModelInput, MLModel.ModelOutput>()
+    .FromFile(modelPath);
 
 var app = builder.Build();
 
@@ -76,4 +80,5 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
+
 app.Run();

@@ -703,6 +703,39 @@
           "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
+      "Microsoft.Extensions.ML/1.5.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0",
+          "Microsoft.Extensions.Logging": "2.1.0",
+          "Microsoft.Extensions.ObjectPool": "2.1.0",
+          "Microsoft.Extensions.Options": "2.1.0",
+          "Microsoft.ML": "1.5.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.ML.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.ML.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Options/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -1739,6 +1772,25 @@
             "related": ".xml"
           }
         }
+      },
+      "INTELLISTOCKS.ML/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Extensions.ML": "1.5.5",
+          "Microsoft.ML": "2.0.0",
+          "Microsoft.ML.LightGbm": "2.0.0",
+          "Swashbuckle.AspNetCore": "6.1.4"
+        },
+        "compile": {
+          "bin/placeholder/INTELLISTOCKS.ML.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/INTELLISTOCKS.ML.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "INTELLISTOCKS.MODELS/1.0.0": {
         "type": "project",
@@ -3099,6 +3151,35 @@
         "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.ML/1.5.5": {
+      "sha512": "9oyXXLiRejRuR6BgPWZp8RQrct9lCCwMHwmfckDlHaBtMU65w36u4SjWEwWnKLWcAOXgzLIgZV18CxV+TjxSqA==",
+      "type": "package",
+      "path": "microsoft.extensions.ml/1.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard2.0/Microsoft.Extensions.ML.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.ML.xml",
+        "microsoft.extensions.ml.1.5.5.nupkg.sha512",
+        "microsoft.extensions.ml.nuspec",
+        "mlnetlogo.png"
+      ]
+    },
+    "Microsoft.Extensions.ObjectPool/2.1.0": {
+      "sha512": "tIbO45cohqexTJPXBubpwluycDT+6OWy2m7PukG37XMrtQ6Zv4AnoLrgUTaCmpWihSs5RZHKvThiAJFcBlR3AA==",
+      "type": "package",
+      "path": "microsoft.extensions.objectpool/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.xml",
+        "microsoft.extensions.objectpool.2.1.0.nupkg.sha512",
+        "microsoft.extensions.objectpool.nuspec"
       ]
     },
     "Microsoft.Extensions.Options/8.0.0": {
@@ -4810,6 +4891,11 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "INTELLISTOCKS.ML/1.0.0": {
+      "type": "project",
+      "path": "../INTELLISTOCKS.ML/INTELLISTOCKS.ML.csproj",
+      "msbuildProject": "../INTELLISTOCKS.ML/INTELLISTOCKS.ML.csproj"
+    },
     "INTELLISTOCKS.MODELS/1.0.0": {
       "type": "project",
       "path": "../INTELLISTOCKS.MODELS/INTELLISTOCKS.MODELS.csproj",
@@ -4828,6 +4914,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "INTELLISTOCKS.ML >= 1.0.0",
       "INTELLISTOCKS.MODELS >= 1.0.0",
       "INTELLISTOCKS.REPOSITORY >= 1.0.0",
       "INTELLISTOCKS.SERVICES >= 1.0.0",
@@ -4869,6 +4956,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.ML\\INTELLISTOCKS.ML.csproj": {
+              "projectPath": "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.ML\\INTELLISTOCKS.ML.csproj"
+            },
             "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj": {
               "projectPath": "P:\\projects\\intellistocks-net\\IntelliStocks.NET\\INTELLISTOCKS.MODELS\\INTELLISTOCKS.MODELS.csproj"
             },
