@@ -11,6 +11,7 @@ Recursos como **alertas automatizados via email** e um **painel de controle cent
 ## Arquitetura e Decisões de Design
 
 Para esta API, optei por usar a arquitetura **MVC (Model-View-Controller)**, combinada com uma abordagem de **microserviços**. Essa escolha foi motivada pela necessidade de integrar duas APIs diferentes uma feita em .NET e outra em Spring Boot dentro de um único projeto front-end.
+Usando uma arquitetura em camadas para organizar melhor as responsabilidades. Criei uma camada de Models para definir as entidades de dados e uma API para expor esses dados via endpoints RESTful. A lógica de acesso ao banco ficou centralizada na camada Repository, enquanto os nossos serviços externos ficaram na camada Services. Realizei testes na camada Tests para garantir a qualidade do código e, por fim, implementei uma camada de Machine Learning para gerar insights preditivos com base nos dados.
 
 ## Por que escolhi microserviços?
 
@@ -66,6 +67,14 @@ Projeto IA: [https://github.com/CastanhoPh/IntelliStocksAI](https://github.com/C
 - **Lucas Lima (RM 551253)** - Mobile Application Development | DevOps Tools & Cloud Computing
 - **Murilo Caumo (RM 551247)** - Mastering Relational and Non-Relational Databases
 - **Pedro Henrique (RM 551598)** - Disruptive Architectures: IoT, IoB & Generative AI
+
+### SPRINT 4
+#### Equipe:
+- **Gustavo Monte (RM 551601)** - Compliance, Quality Assurance & Tests
+- **Igor Luiz (RM 99809)** - Java Advanced | Advanced Business Development with .NET
+- **Lucas Lima (RM 551253)** - Mobile Application Development | DevOps Tools & Cloud Computing
+- **Murilo Caumo (RM 551247)** - Mastering Relational and Non-Relational Databases
+- **Pedro Henrique (RM 551598)** - Disruptive Architectures: IoT, IoB & Generative AI
  
 **Nota:** Embora cada membro tenha responsabilidades específicas, 
 todos contribuem em todas as disciplinas e para o projeto como um todo.
@@ -87,8 +96,12 @@ todos contribuem em todas as disciplinas e para o projeto como um todo.
 - [x] CRUD Tarefas
 - [x] CRUD Anotações
 - [x] CRUD Eventos
-- [ ] Autenticação + Usuário
-- [x] Refatoramento
+- [x] Usuário
+- [ ] Autenticação
+- [x] Email Service
+- [x] Testes
+- [x] ML
+- [x] Refatoração
 - [x] Documentação
 
 ## Como rodar
